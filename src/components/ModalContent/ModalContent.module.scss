@@ -1,0 +1,51 @@
+.root {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  max-width: 892px;
+  width: 100%;
+
+  @include media-max($lg) {
+    padding-top: 40px;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+
+  color: #838283;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wrapperText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 13px;
+  line-height: 18px;
+
+  color: $grey;
+}
+
+.btn {
+  margin-top: 40px;
+}

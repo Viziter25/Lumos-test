@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  max-width: 424px;
+
+  padding: 16px 0;
+
+  border-top: 1px solid $grey;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $blue;
+}
+
+.orange {
+  color: $orange;
+}
+
+.text {
+  text-align: center;
+
+  color: $grey;
+}

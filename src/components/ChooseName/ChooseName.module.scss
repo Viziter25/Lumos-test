@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding-top: 16px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.span {
+  color: $blue;
+}

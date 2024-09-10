@@ -1,0 +1,24 @@
+.root {
+  width: 100%;
+
+  padding: 17px 62px 15px 63px;
+
+  border-radius: 16px;
+  color: $white;
+  background: $orange;
+
+  &:disabled {
+    background: $grey;
+
+    cursor: default;
+  }
+  &:disabled:hover {
+    background: $grey;
+
+    cursor: default;
+  }
+}
+
+.root:hover {
+  background: #ff8317;
+}

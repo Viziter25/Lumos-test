@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+
+}
+
+html {
+  height: 100%;
+}
+
+body,
+#__next {
+  min-height: 100%;
+}
+
+body {
+}
+
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  outline: none;
+}
+
+//::-webkit-scrollbar {
+//  width: 4px;
+//  height: 4px;
+//}
+//
+//::-webkit-scrollbar-thumb {
+//  border-radius: 2px;
+//  background-color: $red-primary;
+//}

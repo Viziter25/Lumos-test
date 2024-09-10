@@ -1,0 +1,63 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.inputWrapper {
+  position: relative;
+
+  width: 100%;
+
+  & .eyeBtn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+  }
+}
+
+.input {
+  height: 54px;
+  width: 100%;
+
+  padding: 14px 16px 19px;
+
+  border-radius: 16px;
+  border: 1px solid $grey;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  outline: none;
+
+  &::placeholder {
+    color: $grey;
+  }
+
+  &:focus {
+    border-color: $grey;
+  }
+
+  &.error {
+    border-color: red;
+  }
+}
+
+.errorWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 14px;
+  line-height: 19px;
+
+  color: red;
+}

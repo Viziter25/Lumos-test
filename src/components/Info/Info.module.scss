@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 104px;
+
+  width: 100%;
+
+  padding: 15px 0;
+
+  border-radius: 16px;
+  box-shadow: 0 2.09px 11.06px 0 #00000040;
+
+  @include media-max($md) {
+    gap: 57px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.capture {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+
+  color: $grey;
+}
+
+.line {
+  display: inline-block;
+
+  width: 0.92px;
+  height: 32px;
+
+  background-color: $grey;
+}
