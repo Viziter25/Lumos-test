@@ -12,7 +12,13 @@ export const MainPageContent = () => {
 
   const scrollToChooseName = () => {
     if (chooseNameRef.current) {
-      chooseNameRef.current.scrollIntoView({ behavior: "smooth" });
+      const offset = 90;
+      const top = chooseNameRef.current.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      });
     }
   };
 
